@@ -23,6 +23,17 @@ h1 {
   padding: 50px 0 32px;
 }
 
+section.news:nth-child(-n+3) h2::before {
+  content: "New ";
+  color: #ff0000;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+section:nth-child(odd) {
+  background-color: #ffd8d8;
+}
+
 article {
   width: 768px;
   margin: 0 auto 32px;
